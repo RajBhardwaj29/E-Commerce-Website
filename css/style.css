@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #ff1616 */
+/* NAVBAR */
+
+.navbar-brand img{
+    width: 150px;
+    height: 55px;
+    object-fit:cover;
+}
+
+.btn btn-secondary dropdown-toggle{
+    color: #212529;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+#Search-bar{
+    position: relative;
+    margin: 0vw 25vw 0vw 2vw;
+}
+
+.d-flex input{
+    width: 40vw;
+}
+
+.footer1{
+    text-align: center;
+    padding: 5vh 0vw;
+    background-color: #212529;
+    color: #fff;
+}
+
+.waves img{
+    position: fixed;
+    z-index: -10; 
+    width: 1920px;
+    height: 600px;
+    object-fit: cover;
+    translate: 0px 60px;
+}
+
+.the-dude img{
+    position: relative;
+    height: 300px;
+    object-fit: cover;
+    translate: 0px -150px;
+}
+
+.the-dude{
+    text-align: top;
+    margin-bottom: -200px;
+}
+
+.bigcard{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.card{
+    border: none;
+    text-align: center;
+    border-radius: 2.5px;
+    background-color:ghostwhite;
+    padding: 17px 17px;
+}
+
+.display-main{
+    margin-bottom: 100px;
+}
+.card p{
+    padding-top: 2.5px;
+}
+
+.major-card{
+    padding: 7px 7px;
+    background-color: #212529;
+    margin-bottom: 10px;
+    border-radius: 3.5px;
+}
+
+p{
+    font-family: 'Permanent Marker', cursive;
+    margin: 0px;
+}
+
+@media (max-width:950px ){
+    .bigcard{
+        flex-direction: column;
+        margin: 17px 17px;
+    }
+    .card img{
+        margin:auto;
+    }
+
+}
